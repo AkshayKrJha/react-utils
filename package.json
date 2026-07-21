@@ -1,0 +1,61 @@
+{
+  "name": "@akshaykrjha/react-utils",
+  "version": "1.0.0",
+  "description": "common reusable hooks, api helpers, components",
+  "keywords": [
+    "react",
+    "typescript",
+    "bootstrap",
+    "modal",
+    "form",
+    "hooks",
+    "components",
+    "react-hooks",
+    "ts"
+  ],
+  "homepage": "https://github.com/AkshayKrJha/react-utils#readme",
+  "bugs": {
+    "url": "https://github.com/AkshayKrJha/react-utils/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkshayKrJha/react-utils.git"
+  },
+  "license": "MIT",
+  "author": "Akshay Kumar Jha",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node -v",
+    "build": "tsup && tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "bootstrap": "^5.3.8",
+    "react": "^19.2.7",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.7",
+    "tsup": "^8.5.1",
+    "typescript": "^7.0.2"
+  },
+  "peerDependencies": {
+    "bootstrap": "^5.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-bootstrap": "^2.10.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "require": "./dist/index.js",
+  "files": [
+    "dist"
+  ]
+}
