@@ -1,5 +1,5 @@
 {
-  "name": "@akshaykrjha/react-utils",
+  "name": "@2cube8/react-utils",
   "version": "1.0.0",
   "description": "common reusable hooks, api helpers, components",
   "keywords": [
@@ -13,13 +13,13 @@
     "react-hooks",
     "ts"
   ],
-  "homepage": "https://github.com/AkshayKrJha/react-utils#readme",
+  "homepage": "https://github.com/2cube8/react-utils#readme",
   "bugs": {
-    "url": "https://github.com/AkshayKrJha/react-utils/issues"
+    "url": "https://github.com/2cube8/react-utils/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AkshayKrJha/react-utils.git"
+    "url": "git+https://github.com/2cube8/react-utils.git"
   },
   "license": "MIT",
   "author": "Akshay Kumar Jha",
