@@ -58,5 +58,8 @@
   "require": "./dist/index.js",
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
