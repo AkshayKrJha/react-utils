@@ -21,7 +21,7 @@ export function useForm({
     function (postSuccess: any) {
       return async function (e: any) {
         e.preventDefault();
-        alert(JSON.stringify(formData, null, 2));
+        // alert(JSON.stringify(formData, null, 2));
         try {
           setLoading(true);
           const result = await Promise.resolve(onSubmit?.(formData));
